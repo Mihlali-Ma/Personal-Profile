@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+</head>
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar">
+                    <img src="https://i.postimg.cc/02hpkSWv/slgc3cw3xcabybomvmodc21318i7.png" alt="avatar" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Mihlali Matrose">Mihlali Matrose</h1>
+                    <p class="title">Web Developer</p>
+                </div>
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <div class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mihlalimatrose@gmail.com" class="contact-link">mihlalimatrose@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:0723661891" class="contact-link">(072)-366-1891</a>
+                        </div>
+                    </li>
+                    
+                    <li class="contact-item">
+                        <div class="icon">
+                            <ion-icon name="calendar-outline"> </ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2003-03-05">05 Mar 2003</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon">
+                            <ion-icon name="location-outline"> </ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Address</p>
+                            <address>Cape Town, Western Cape, RSA</address>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon">
+                            <ion-icon name="location-outline"> </ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Resume</p>
+                            <a href="https://www.canva.com/design/DAGOTfY29AY/wiUiGmXtY_9l-13zPRuQtA/view?utm_content=DAGOTfY29AY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf074fe11fa" class="contact-link">See CV</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="nav-link active" data-nav-link onclick="handleClick(this)">About</button></li>
+                    <li class="navbar-item"> <button class="nav-link" data-nav-link onclick="handleClick(this)">Resume</button></li>
+                    <li class="navbar-item"><button class="nav-link" data-nav-link onclick="handleClick(this)">Portfolio</button></li>
+                    <li class="navbar-item"><button class="nav-link" data-nav-link onclick="handleClick(this)">Contact </button></li>
+                </ul>
+            </nav>
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About Me</h2>
+                </header>
+                <section class="about-text">
+                    <P>
+                        I'm a Creative UI/UX designer from Khayelitsha, Cape Town, South Africa with a key focus in web Development. I take great joy in creating beautiful desings and turning complex problems into simple solutions that everyone can enjoy.
+                    </P>
+                    <p>
+                        My job is to Build website that are functional and user-friendly but at the same they are made to be attractive to the end-user. I always add a sense of personal touch to every project that I'm working on and I always my A game to every project i work on. I always leave clients setisfied.
+                    </p>
+                </section>
+                <section class="service">
+                    <h3 class="h3 service-title">
+                        What I'm doing
+                    </h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon">
+                                <img src="https://i.postimg.cc/xjtYHyMv/icon-design.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">Create high quality and modern design made at a professional level</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content">
+                                <h4 class="h4 service-item-title">Web Development</h4>
+                                <p class="service-item-text">Site Development done at a very high professional level.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">
+                        Testimonials
+                    </h3>
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar">
+                                    <img src="https://i.postimg.cc/qRY7ssCM/xv5yk4w69g7rv55e8kfnhtkzltgw.png" alt="avatar" width="60">
+                                </figure>
+                                <h4 class="h4 testimonials-item-title">Masood Basardien</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Mihlali is dedicated, hard working and a team player. He works well his peers and performs well on his projects. He has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have him.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar">
+                                    <img src="https://i.postimg.cc/SQ23QBkz/b7e7mawn83a0hmhi8v1zi1s5uqpx.png" alt="avatar" width="60">
+                                </figure>
+                                <h4 class="h4 testimonials-item-title">Sibusiso Dyan</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Mihlali is a standout team player who always puts in a lot of effort and is never late. He’s really good at IT and web development. If you bring him onto your team, you’d be lucky to have him – he’s someone you can always rely on.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar">
+                                    <img src="https://i.postimg.cc/2599rwtw/mynt4atr56twgz1cctt0afw9cdvv.png" alt="avatar" width="60">
+                                </figure>
+                                <h4 class="h4 testimonials-item-title">Alonso Cupido</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Mihlali Matrose Web whiz extraordinaire! Crafts user-friendly applications that make work a breeze. Creative problem-solver, team player, and tech magician. Need a web dev superhero? Look no further than Mihlali!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar">
+                                <img src="https://i.postimg.cc/qRY7ssCM/xv5yk4w69g7rv55e8kfnhtkzltgw.png" alt="Masood Basardien" width="80" data-modal-img>
+                            </figure>
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="qoutation">
+                        </div>
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Masood Basardien</h4>
+                            <time datetime="2024-02-23">23 Feb ,2024</time>
+                            <div class="modal-text" data-modal-text>
+                                <p>
+                                    Mihlali is dedicated, hard working and a team player. He works well his peers and performs well on his projects. He has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have him. 
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <section class="clients">
+                    <h3 class="h3 clients-title">
+                        Previous Employers
+                    </h3>
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/Cxwtwdcc/logo-429x99.png" alt="logo" style="margin-top: 4.3rem"></a>
+                        </li>
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/qvmm0wh7/FAVICON-Little-Optimist-Trust-LOGO.png" alt="logo"></a>
+                        </li>
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/pLyfQHr2/cropped-PHOTO-2024-10-14-08-11-11-removebg-preview.png" alt="logo" style="margin-top: 3.1rem"></a>
+                        </li>
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/dt3kp9Y6/lc-studioza-logo-removebg-preview.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="resume" data-page ="resume" >
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Life Choices Coding Academy</h4>
+                            <span>Mar 2023 - Sep 2023</span>
+                            <p class="timeline-text">
+                                At Life Choices Coding Academy, I joined the Full-Stack Web Developement Bootcamp (2023) Intensive 6-month program mastering HTML, CSS, JavaScript, React & backend tech. Project-based learning, guest lectures, & soft skills development for industry readiness. The program included other wide ranges of topics that were issential for understanding both the practical and theoretical aspects of computing.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">COSAT High School</h4>
+                            <span>Jan 2017 - December 2022</span>
+                            <p class="timeline-text">
+                                This is where i learnt the fundermentals programming, This is were i learnt about my love for Web development .My 2022 matriculation from COSAT marked the culmination of a transformative journey. Nestled within its supportive STEM-focused environment, I honed my skills in science, technology, and critical thinking, tackling challenges that fostered resilience and leadership.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Expirience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="timeline-item-title">Web designer& Wed Developer</h4>
+                            <span>Dec 2024 - Oct 2024</span>
+                            <p class="timeline-text">
+                                I was responsible for designing and developing the site of the company, my role also extended to creating the company emails and managing them. 
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="timeline-item-title">Wordpress Developer& Content Manager</h4>
+                            <span>Oct 2024 - Mar 2024</span>
+                            <p class="timeline-text">
+                                I was responsible for generating content for the company. My job also required me to do blog updates on the companies website, also had the privilage of working with SEO on company site. 
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="timeline-item-title">Web Developer</h4>
+                            <span>Mar 2024 - Sep 2023</span>
+                            <p class="timeline-text">
+                                I created websites using different plartforms and participated in challenges that tested our skills and been in positions of leadership which allowed me to expirienced ways of collaborating with people.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="Skill">
+                    <h3 class="h3-skill-title">My Skills</h3>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design</h5>
+                                <data value="70">70%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Graphic Design</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">WordPress</h5>
+                                <data value="65">65%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 65%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <Section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="Active" data-filter-btn>All</button>
+                        </li>
+                        <li class="filter-item">
+                            <button  data-filter-btn>Web Development</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Web Design</button>
+                        </li>
+                    </ul>
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Web Development</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Web Design</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item Active" data-filter-item data-category="Web Development">
+                            <a href="https://dev-mihlali-matrose.pantheonsite.io/">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/RF3dDhkg/project-1.png" alt="portfolio">
+                                </figure>
+                                <h3 class="project-title">Portfolio</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item" data-filter-item data-category="Web Development">
+                            <a href="https://capstone-55361.web.app/">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/ryjGNSRq/project-2.png" alt="Ecom-movie">
+                                </figure>
+                                <h3 class="project-title">Movie Site</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item" data-filter-item data-category="Web Development">
+                            <a href="https://vue-portfolio-jw32m6m0x-mihlali-matroses-projects.vercel.app/">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/ZRC9PyG5/project-3.png" alt="Resume">
+                                </figure>
+                                <h3 class="project-title">Resume</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item" data-filter-item data-category="Web Design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/pX0g4h4H/project-5.png" alt="Services site">
+                                </figure>
+                                <h3 class="project-title">Services Site</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+                        <li class="project-item" data-filter-item data-category="Web Development">
+                            <a href="https://sage-sundae-895b74.netlify.app/">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/Z54C7QGg/project-4.png" alt="Calculator">
+                                </figure>
+                                <h3 class="project-title">Calculator</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item" data-filter-item data-category="Web Design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/xqrb1TFT/project-6.png" alt="Sailing site">
+                                </figure>
+                                <h3 class="project-title">Sailing Site</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+                    </ul>
+                </Section>
+            </article>
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=cape%20Town+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+                    </figure>
+                </section>
+                <section class="contact-form">
+                    <h3 class="h3-form-title">Contact Form</h3>
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Fullname" required data-form-input>
+                            <input type="email" name="Email" class="form-input" placeholder="Email" required data-form-input>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="message..." required data-form-input=""></textarea>
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+    <script>
+
+    const portfolioLink = document.querySelector('a[href="#portfolio"]');
+    const portfolioSection = document.querySelector('article[data-page="portfolio"]');
+    const filterItems = document.querySelectorAll('[data-filter-item]');
+    const filterBtn = document.querySelectorAll('[data-filter-btn]');
+    const selectValue = document.querySelector('[data-select-value]');
+
+    const filterFunc = function (selectedValue) {
+        for (let i = 0; i < filterItems.length; i++) {
+            if (selectedValue === "all") {
+                filterItems[i].classList.add('active');
+                filterItems[i].classList.remove('hidden');
+            } else if (selectedValue === filterItems[i].dataset.category.toLowerCase()) {
+                filterItems[i].classList.add('active');
+                filterItems[i].classList.remove('hidden');
+            } else {
+                filterItems[i].classList.remove('active');
+                filterItems[i].classList.add('hidden');
+            }
+        }
+    }
+
+    let lastClickedBtn = filterBtn[0];
+
+    for (let i = 0; i < filterBtn.length; i++) {
+
+        filterBtn[i].addEventListener('click', function () {
+
+            let selectedValue = this.innerText.toLowerCase();
+            selectValue.innerText = this.innerText;
+            filterFunc(selectedValue);
+
+            lastClickedBtn.classList.remove('active');
+            this.classList.add('active');
+            lastClickedBtn = this;
+
+        })
+    }
+    portfolioSection.classList.remove('active')
+    portfolioLink.addEventListener('click', (event) => {
+        event.preventDefault();
+        portfolioSection.classList.toggle('active');
+    });
+
+    filterFunc("all")
+
+
+//     function handleClick(button) {
+//   // Get the existing contact article
+//   const existingArticle = document.querySelector("article.contact");
+
+//   // Create or remove the contact article based on its existence
+//   if (existingArticle) {
+//     existingArticle.remove(); // Remove existing article
+//   } else {
+    
+//     document.body.appendChild(contactArticle); 
+//   }
+
+
+
+
+
+
+    function handleClick(element) {
+    const navigationLinks = document.querySelectorAll('[data-nav-link]'); 
+    const pages = document.querySelectorAll('[data-page]'); 
+
+    for (let i = 0; i < pages.length; i++) {
+        if (element.innerHTML.toLowerCase() === pages[i].dataset.page) {
+            pages[i].classList.add('active');
+            element.classList.add('active'); 
+            window.scrollTo(0, 0);
+    }   else {
+        pages[i].classList.remove('active');
+        navigationLinks[i].classList.remove('active'); 
+    }
+  }
+
+
+}
+    </script>
+    <script src="/JS/mai.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+</body>
+</html>
